@@ -35,7 +35,7 @@ jobs:
 
       # Шаг 5: Запуск Postman коллекции
       - name: Run Postman Collection
-        run: newman run https://api.postman.com/collections/18547978-01e25931-fe51-463d-8ba1-5cd4777c5b87?apikey=PMAK-69b05bd9004012000130b9df-3b5816737ea9ae39ad8321d7d8bae99577 -r htmlextra --reporter-htmlextra-export testResult/htmlreport.html
+        run: newman run https://api.postman.com/collections/18547978-93557434-f995-4eca-9abd-be46a25de578?apikey=PMAK-69b05bd9004012000130b9df-3b5816737ea9ae39ad8321d7d8bae99577 -r htmlextra --reporter-htmlextra-export testResult/htmlreport.html
 
       # Шаг 5: Сохранить отчет о выполнении
       - name: Upload Test Results
